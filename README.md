@@ -26,7 +26,7 @@ git clone https://github.com/jameswarren123/SmartThread-FTP.git
 3. Use the makefile to compile
 4. Use ./client/myftp [server ip] [command port] [termination port] and ./client/myftp [command port] [termination port] for 1 server and as many clients as wanted
 ## For Other Distributed Projects See
-<a href = "https://github.com/jameswarren123/MessageRelay" target="_blank"> <h3>MessageRelay</h3> </a>
-A asynchronus and persistent multicast project
-<a href = "https://github.com/jameswarren123/ToyDistributedHashing" target="_blank"> <h3>ToyDistributedHashing</h3> </a>
-A distributed consistent hashing project 
+### [MessageRelay](https://github.com/jameswarren123/MessageRelay)
+A asynchronous and persistent multicast project
+### [ToyDistributedHashing](https://github.com/jameswarren123/ToyDistributedHashing)
+A distributed consistent hashing project
