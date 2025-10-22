@@ -10,10 +10,10 @@ A C based application built in a Unix environment which mimics common bash opera
 - mkdir [remote directory]
 - pwd
 - terminate [command id]
-- append any command with & to make it a background operation ie put file &
+- append any command with & to make it a background operation (ie put file.tx &)
 - quit
 ## Technologies Used
-- Language: Java, Navigation is Bash
+- Language: C, Navigation is Bash
 - Developed in: Emacs
 - Environment: Unix server
 - UI: CLI
@@ -23,4 +23,10 @@ A C based application built in a Unix environment which mimics common bash opera
 git clone https://github.com/jameswarren123/SmartThread-FTP.git
 ```
 2. Open in a compatible C environment where multiple connections are possible
-3. Use ./client/myftp [server ip] [command port] [termination port] and ./client/myftp [command port] [termination port] for 1 server and as many clients as wanted
+3. Use the makefile to compile
+4. Use ./client/myftp [server ip] [command port] [termination port] and ./client/myftp [command port] [termination port] for 1 server and as many clients as wanted
+## For Other Distributed Projects See
+<a href = "https://github.com/jameswarren123/MessageRelay" target="_blank"> <h3>MessageRelay</h3> </a>
+A asynchronus and persistent multicast project
+<a href = "https://github.com/jameswarren123/ToyDistributedHashing" target="_blank"> <h3>ToyDistributedHashing</h3> </a>
+A distributed consistent hashing project 
